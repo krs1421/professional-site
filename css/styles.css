@@ -1,0 +1,131 @@
+/* Tag */
+
+h2 {
+  margin-top: 0;
+  font-weight: bolder;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 10px;
+  margin-bottom: 5%;
+  margin-top: 0;
+  width: 75%
+}
+
+/* Class */
+
+.about-me {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.bottom-container {
+  background-color: #204051;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  font-family: "raleway", sans-serif;
+  margin: 50px auto 50px auto;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-family: "raleway", sans-serif;
+  font-size: .75rem;
+  padding-bottom: 10px;
+}
+
+.feather-gif {
+  position: absolute;
+  height: 98%;
+  width: 25%;
+}
+
+.footer-logo {
+  padding-bottom: 20px;
+  margin: 0 7px;
+}
+
+.heading-container {
+  background-color: #E4E3E3;
+  border: solid black 5px;
+  border-left: none;
+  border-right: none;
+  display: block;
+  opacity: .9;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.hello-gif {
+  display: block;
+  margin: 20px auto 10px auto;
+}
+
+.middle-container {
+  background-color: #3B6978;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.profile-photo {
+  border: solid 5px;
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  margin-top: 200px;
+
+}
+
+.strong-text {
+  display: inline-block;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.strong-text-alt {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.top-container {
+  background-color: #84A9AC;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+/* ID */
+
+/* Media Query */
+
+@media (min-width: 900px) {
+  .strong-text {
+    font-size: 90px;
+  }
+  .profile-photo {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .strong-text-alt {
+    font-size: 35px;
+  }
+}

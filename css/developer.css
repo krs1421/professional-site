@@ -1,0 +1,52 @@
+/* Tags */
+
+
+
+
+
+/* Class */
+
+.heading-container {
+  background-image: url("webdesigner.png");
+  background-size: cover;
+  background-color: #D49A89;
+  padding-top: 40px;
+}
+
+.header-1 {
+  color: white;
+  font-family:'La Belle Aurore', cursive;
+  font-size: 12.5vw;
+  padding-left: 40px;
+}
+
+
+/* Nav Bar */
+
+.logo {
+  width: 50px;
+}
+
+.navbar {
+  background-color: #FF2E63;
+  font-family: "raleway";
+}
+
+.navbar-brand {
+  padding-left: 5px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 0 0 4rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-light {
+  color: white;
+}
+
+/* IDs */

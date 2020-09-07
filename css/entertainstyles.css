@@ -1,0 +1,210 @@
+/* Tag */
+
+body {
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 100%;
+  font-size: 7.5vw;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 20%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 15px;
+  padding: 40px 0 40px;
+}
+/*class*/
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 5px;
+}
+
+.character-video {
+  border: solid 15px #393E46;
+  border-radius: 5%;
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-family: "raleway", sans-serif;
+  font-size: .75rem;
+  padding: 15px;
+}
+
+.example-photo {
+  border: solid white 10px;
+  border-radius: 15%;
+  width: 100%;
+}
+
+.fourth-container {
+  background-color: #00ADB5;
+  border-top: solid white 5px;
+}
+
+.heading-container {
+  background-color: #00ADB5;
+  border-top: solid 5px #E4E3E3;
+  font-family: 'La Belle Aurore', cursive;
+  color: #eeeeee;
+  letter-spacing: 8px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.menu-bar-container {
+  background-image: url("background.png");
+  border-top: solid white 5px;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 2rem;
+  padding: 2% 2% 0;
+  text-align: center;
+}
+
+.menu-contact {
+  border: 3px solid #393E46;
+  border-radius: 15%;
+}
+
+.menu-link {
+  color: white;
+  margin: 5%;
+}
+
+.menu-link:hover {
+  color: #393E46;
+  text-decoration: none;
+}
+
+.header {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 2.75rem;
+  color: #393E46;
+  letter-spacing: 8px;
+  padding-top: 40px;
+}
+
+.nav {
+  display: inline-flex;
+}
+
+.nav-link {
+  color: #00ADB5;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.rws {
+  border: solid black 5px;
+  border-radius: 5%;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.second-container {
+  background-color: #00ADB5;
+  border-top: solid white 5px;
+}
+
+.side-bar {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 40px;
+  left: 18px;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #EEEEEE;
+  border-top: solid white 5px;
+}
+
+.third-container {
+  background-color: #EEEEEE;
+  border-top: solid white 5px;
+}
+
+.profile-container {
+  background-image: url("background.png");
+  background-color: #00ADB5;
+  padding: 50px;
+  text-align: center;
+}
+
+.resume-download {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 2.75rem;
+  color: #eeeeee;
+  letter-spacing: 5px;
+}
+
+/* IDs */
+
+#menu {
+  position: static;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* Media */
+
+@media (max-width: 991px) {
+  p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .character-video {
+    width: 75%
+  }
+
+  .example-photo {
+    height: 100px;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  h1 {
+    font-size: 9vw;
+  }
+
+  .character-video {
+    width: 100%
+  }
+
+  .nav-link {
+    font-size: .8rem;
+    padding: .5rem;
+  }
+
+}
